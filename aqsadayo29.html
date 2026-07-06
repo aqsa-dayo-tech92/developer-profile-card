@@ -1,0 +1,213 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+    <title>Profile Card</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+       body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 380px;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    padding-bottom: 24px;
+}
+.card-header {
+    background-color: #2563eb;
+    height: 110px;
+    width: 100%;
+}
+.profile-img-container {
+    margin-top: -70px;
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #ffffff;
+    object-fit: cover;
+    background-color: #ddd;
+}
+.profile-info h2 {
+    font-size: 22px;
+    color: #1f2937;
+    margin-top: 10px;
+}
+.profile-info .title {
+    font-size: 14px;
+    color: #6b7280;
+    margin-top: 4px;
+}
+
+.profile-info .location {
+    font-size: 13px;
+    color: #9ca3af;
+    margin-top: 4px;
+}
+
+.profile-info .bio {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 15px 20px;
+    line-height: 1.4;
+}
+.tags {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+.tags span {
+    background-color: #eff6ff;
+    color: #2563eb;
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.stats {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #f3f4f6;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+}
+.stat-item h3 {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.stat-item p {
+    font-size: 12px;
+    color: #9ca3af;
+    margin-top: 2px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.btn-follow {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+      background-color: #1d4ed8;
+}
+
+.btn-message {
+    background-color: white;
+    color: #1f2937;
+    border: 1px solid #e5e7eb;
+    background-color: #f9fafb;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: #9ca3af;
+    font-size: 18px;
+    transition: 0.2s;
+}
+.social-links a:hover {
+    color: #4b5563;
+}
+
+    </style>
+    </head>
+    
+    <body>
+           <div class="card">
+        
+        <div class="card-header"></div>
+
+           <div class="profile-img-container">
+          <img src="https://cdn.dribbble.com/userupload/46090182/file/3c965465978f577d32c0ea3e4e0c9cc8.png?resize=400x0" alt="Aqsa Dayo" class="profile-img">
+        </div>
+         <div class="profile-info">
+            <h2>Aqsa Dayo</h2>
+            <p class="title">Full-Stack Developer</p>
+            <p class="location"><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</p>
+            <p class="bio">Building clean web apps with React and Node.js. <br> I love teaching and turning ideas into products.</p>
+        </div>
+
+ <div class="tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+            <span>Tailwind</span>
+        </div>
+
+
+ <div class="stats">
+            <div class="stat-item">
+                <h3>48</h3>
+                <p>Projects</p>
+            </div>
+            <div class="stat-item">
+                <h3>12k</h3>
+                <p>Followers</p>
+            </div>
+            <div class="stat-item">
+                <h3>96</h3>
+                <p>Repos</p>
+            </div>
+        </div>
+
+  <div class="buttons">
+                 <button class="btn btn-follow">Follow</button>
+            <button class="btn btn-message">Message</button>
+        </div>
+
+           <div class="social-links">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-solid fa-globe"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+    </body>
